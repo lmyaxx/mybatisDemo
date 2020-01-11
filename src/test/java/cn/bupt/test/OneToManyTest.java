@@ -1,8 +1,5 @@
 package cn.bupt.test;
 
-import java.io.InputStream;
-import java.util.List;
-
 import cn.bupt.pojo.Clazz;
 import cn.bupt.pojo.ClazzMapper;
 import cn.bupt.pojo.Student;
@@ -11,6 +8,9 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+
+import java.io.InputStream;
+import java.util.List;
 
 /*
 student,clazz
